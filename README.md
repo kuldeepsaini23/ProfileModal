@@ -1,2 +1,2 @@
 # ProfileModal
-link:- https://github.com/kuldeepsaini23/ProfileModal/settings/pages
+link:- https://kuldeepsaini23.github.io/ProfileModal/
