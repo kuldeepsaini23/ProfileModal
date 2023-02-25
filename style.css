@@ -122,24 +122,7 @@
   color: #131313;
 }
 
-.modal {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  translate: -50% -50%;
-  border: 2px solid #ffffff59;
-  width: 500px;
-  scale: 0;
-  background: #00000088;
-  backdrop-filter: blur(10px);
-  color: white;
-  z-index: 1;
-  padding: 20px 25px;
-  border-radius: 20px;
-  transition: 0.5s ease-in-out;
-}
-
-.modal-follow {
+.modal,.modal-follow {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -174,10 +157,12 @@
 .icon-container {
   margin-top: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+  gap: 2rem;
 }
+
 .icon {
   border: 1px solid #ffffff88;
   padding: 17px;
@@ -298,7 +283,7 @@
   .bottom-group {
     flex-direction: column;
   }
-  .modal {
+  .modal, .modal-follow {
     width: 70vw;
   }
 }
@@ -324,7 +309,7 @@
   .user-name h2 {
     font-size: 1.3rem;
   }
-  .modal {
+  .modal, .modal-follow {
     width: 80vw;
   }
 }
