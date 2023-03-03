@@ -295,7 +295,7 @@
     align-items: center;
   }
   .card-wrapper {
-    position: static;
+    position: absolute;
     top: 20%;
     left: 10%;
     translate: 0 0;
